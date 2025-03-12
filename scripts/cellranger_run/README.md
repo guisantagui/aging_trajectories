@@ -31,3 +31,13 @@ rm refdata-gex-GRCh38-2024-A.tar.gz
 ```
 
 ## Running
+Edit `cellranger_run.sh` with the desired values for:
+- `fastq_dir`: directory with the FASTQ files.
+- `id`: ID of the analysis, which will be used for creating a folder within `out_dir` with all the results.
+- `ref_trnscrptm`: directory with the reference transcriptome (in this case is `refdata-gex-GRCh38-2024-A.tar.gz`)
+- `out_dir`: directory where generated files will be stored.
+
+Then run:
+```bash
+bash cellranger_run.sh
+```
