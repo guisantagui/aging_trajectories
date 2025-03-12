@@ -1,0 +1,5 @@
+scripts/synapse_downloads/.env
+scripts/cellranger_run/error_*
+scripts/cellranger_run/output_*
+scripts/synapse_downloads/error_*
+scripts/synapse_downloads/output_*
