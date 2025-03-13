@@ -1,10 +1,11 @@
 # Cell Ranger setup and run
-
+Instructions for setting up and running Cell Ranger in LCSBs HPC.
 ## Installation
 
-Download tar.gz with:
+Go to `$HOME` and Download tar.gz with:
 
 ```bash
+cd $HOME
 curl -o cellranger-9.0.1.tar.gz "https://cf.10xgenomics.com/releases/cell-exp/cellranger-9.0.1.tar.gz?Expires=1741813380&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA&Signature=Msg0afmv7luBeMBNHN9e6PisiCJ~lSVK-SvdEtit~7fsaFZVORqBt6nCxFwqasb9Y5Ycbz-WAaoB2ajyAygtWOmRByIEk69IMiAO4kHMbYGWBJCryf0u0z64bqMpzK5KLETUpg4dyMtNxQlxrTpJsXL9jBxDFaHjCaSam9OL3PHscRvrmKoTgc98KUvEe3FaJAJVhG2JTj6Y2NHXSr3mXKoqI3XtXoLQg0UK8bne-ifavUtiFQ-hvQKFtkNLmVJbBxepurD6EBy-oU6CaXpcAn2lOOSI0p3iB1FNx0ONsTVUH8Ibvbk8fOAHTDoATtiP-cWBWAbcQG4Qj43kLWm9~A__"
 ```
 
